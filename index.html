@@ -1,0 +1,114 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Shopping Website</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f9f9f9;
+            color: #333;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+
+        header {
+            background-color: #1976d2;
+            color: white;
+            padding: 1rem 0;
+            text-align: center;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 2.5rem;
+        }
+
+        nav {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 1rem;
+            padding: 1rem;
+            background-color: #eeeeee;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: #1976d2;
+            font-weight: 500;
+            padding: 0.5rem 1rem;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+        }
+
+        nav a:hover {
+            background-color: #dbe9f4;
+        }
+
+        main {
+            flex: 1;
+            padding: 2rem;
+            text-align: center;
+        }
+
+        footer {
+            background-color: #f1f1f1c4;
+            text-align: center;
+            padding: 1rem;
+            font-size: 0.9rem;
+            color: brown;
+        }
+
+        footer address {
+            font-style: normal;
+            line-height: 1.6;
+        }
+
+        @media (max-width: 600px) {
+            header h1 {
+                font-size: 1.8rem;
+            }
+
+            nav {
+                flex-direction: column;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Byte Bazaar</h1>
+    </header>
+
+    <nav>
+        <a href="http://localhost/Online Shopping Website/index.html">Home</a>
+        <a href="http://localhost/Online Shopping Website/software.html">Software</a>
+        <a href="http://localhost/Online Shopping Website/hardware.html">Hardware</a>
+        <a href="http://localhost/Online Shopping Website/logoutpage.php">Logout</a>
+    </nav>
+
+    <main>
+        <p>Welcome to <strong>Byte Bazaar</strong>, your one-stop destination for all your hardware and software shopping needs. Explore our categories to find high-quality tech products.</p>
+    </main>
+
+    <footer>
+        <address>
+            Byte Bazaar Headquarters<br>
+            123 Tech Avenue, Innovation Park<br>
+            Silicon City, CA 90210<br>
+            Email: support@bytebazaar.com | Phone: +1 (800) 123-4567
+        </address>
+    </footer>
+
+</body>
+</html>

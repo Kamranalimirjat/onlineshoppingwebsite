@@ -1,0 +1,226 @@
+<?php
+ 
+session_start();
+
+$b=1;
+
+foreach($_SESSION as $item){
+	$b=0;
+	break;
+}
+if($b){
+	header("location:Loginpage.html");
+}
+?>
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hardware Products</title>
+</head>
+<body>
+<center>
+    <a href='http://localhost/Online Shopping Website/index.html' >Home</a> &nbsp;&nbsp;
+    <a href='http://localhost/Online Shopping Website/software.php' >Software</a>&nbsp;&nbsp;
+    <a href='http://localhost/Online Shopping Website/hardware.php'>Hardware</a>&nbsp;&nbsp;
+    <a href='http://localhost/Online Shopping Website/logoutpage.php'>Logout</a>
+
+    <h1>Hardware Product List</h1>
+
+    <form action="http://localhost/Online Shopping Website/addproducts.php" method="get">
+        <table border="1">
+            <tr>
+                <td>Product Display</td>
+                <td><img src="hp laser jet.png" width="80px" height="80px"></td>
+                <input type="hidden" value="hp laser jet.png" name="pimage">
+            </tr>
+
+            <tr>
+                <td>Version</td>
+                <td>HP Laser Jet MFP</td>
+                <input type="hidden" value="HP Laser Jet MFP" name="model">
+            </tr>
+
+            <tr>
+                <td>Price</td>
+                <td>PKR: 46000 </td>
+                <input type="hidden" value="46000" name="price">
+            </tr>
+
+            <tr>
+                <td>Qty</td>
+                <td><input type="number" name="qty"></td>
+            </tr>
+
+            <tr>
+                <td><input type="submit" value="View Cart" name="event"></td>
+                <td><input type="submit" value="Add to Cart" name="event"></td>
+            </tr>
+        </table>
+    </form>
+
+    <form action="http://localhost/Online Shopping Website/addproducts.php" method="get"></form>
+        <table border="1">
+            <tr>
+                <td>Product Display</td>
+                <td><img src="hp smart tank.png" width="80px" height="80px"></td>
+                <input type="hidden" value="hp smart tank.png" name="pimage">
+            </tr>
+
+            <tr>
+                <td>Version</td>
+                <td>HP Smart Tank 530</td>
+                <input type="hidden" value="HP Smart Tank 530" name="model">
+            </tr>
+
+            <tr>
+                <td>Price</td>
+                <td>PKR: 72000 </td>
+                <input type="hidden" value="72000" name="price">
+            </tr>
+
+            <tr>
+                <td>Qty</td>
+                <td><input type="number" name="qty"></td>
+            </tr>
+
+            <tr>
+                <td><input type="submit" value="View Cart" name="event"></td>
+                <td><input type="submit" value="Add to Cart" name="event"></td>
+            </tr>
+        </table>
+    </form>
+
+    <form action="http://localhost/Online Shopping Website/addproducts.php" method="get"></form>
+        <table border="1">
+            <tr>
+                <td>Product Display</td>
+                <td><img src="hp desk jet.png" width="80px" height="80px"></td>
+                <input type="hidden" value="hp desk jet.png" name="pimage">
+            </tr>
+
+            <tr>
+                <td>Version</td>
+                <td>HP Desk Jet</td>
+                <input type="hidden" value="HP Desk Jet" name="model">
+            </tr>
+
+            <tr>
+                <td>Price</td>
+                <td>PKR: 20000 </td>
+                <input type="hidden" value="20000" name="price">
+            </tr>
+
+            <tr>
+                <td>Qty</td>
+                <td><input type="number" name="qty"></td>
+            </tr>
+
+            <tr>
+                <td><input type="submit" value="View Cart" name="event"></td>
+                <td><input type="submit" value="Add to Cart" name="event"></td>
+            </tr>
+        </table>
+    </form>
+
+    <form action="http://localhost/Online Shopping Website/addproducts.php" method="get"></form>
+        <table border="1">
+            <tr>
+                <td>Product Display</td>
+                <td><img src="lenovo ideapad.png" width="80px" height="80px"></td>
+                <input type="hidden" value="lenovo ideapad.png" name="pimage">
+            </tr>
+
+            <tr>
+                <td>Version</td>
+                <td>Lenovo Idea Pad</td>
+                <input type="hidden" value="Lenovo Idea Pad" name="model">
+            </tr>
+
+            <tr>
+                <td>Price</td>
+                <td>PKR: 96000 </td>
+                <input type="hidden" value="96000" name="price">
+            </tr>
+
+            <tr>
+                <td>Qty</td>
+                <td><input type="number" name="qty"></td>
+            </tr>
+
+            <tr>
+                <td><input type="submit" value="View Cart" name="event"></td>
+                <td><input type="submit" value="Add to Cart" name="event"></td>
+            </tr>
+        </table>
+    </form>
+
+    <form action="http://localhost/Online Shopping Website/addproducts.php" method="get"></form>
+        <table border="1">
+            <tr>
+                <td>Product Display</td>
+                <td><img src="hp laptop.png" width="80px" height="80px"></td>
+                <input type="hidden" value="hp laptop.png" name="pimage">
+            </tr>
+
+            <tr>
+                <td>Version</td>
+                <td>HP Laptop</td>
+                <input type="hidden" value="HP Laptop" name="model">
+            </tr>
+
+            <tr>
+                <td>Price</td>
+                <td>PKR: 127000 </td>
+                <input type="hidden" value="127000" name="price">
+            </tr>
+
+            <tr>
+                <td>Qty</td>
+                <td><input type="number" name="qty"></td>
+            </tr>
+
+            <tr>
+                <td><input type="submit" value="View Cart" name="event"></td>
+                <td><input type="submit" value="Add to Cart" name="event"></td>
+            </tr>
+        </table>
+    </form>
+
+    <form action="http://localhost/Online Shopping Website/addproducts.php" method="get"></form>
+        <table border="1">
+            <tr>
+                <td>Product Display</td>
+                <td><img src="dell laptop.png" width="80px" height="80px"></td>
+                <input type="hidden" value="dell laptop.png" name="pimage">
+            </tr>
+
+            <tr>
+                <td>Version</td>
+                <td>Dell Laptop</td>
+                <input type="hidden" value="Dell Laptop" name="model">
+            </tr>
+
+            <tr>
+                <td>Price</td>
+                <td>PKR: 165000 </td>
+                <input type="hidden" value="165000" name="price">
+            </tr>
+
+            <tr>
+                <td>Qty</td>
+                <td><input type="number" name="qty"></td>
+            </tr>
+
+            <tr>
+                <td><input type="submit" value="View Cart" name="event"></td>
+                <td><input type="submit" value="Add to Cart" name="event"></td>
+            </tr>
+        </table>
+    </form>
+</center>
+</body>
+</html>
